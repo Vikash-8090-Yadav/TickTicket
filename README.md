@@ -3,11 +3,7 @@
 
 
 
-
-
-# Demo Video: https://youtu.be/49tyju_PtUQ
-
-# Frontend Deploy Link: 
+# Frontend Deploy Link: https://tick-ticket.vercel.app/
 
 
 ## Introduction 
@@ -46,6 +42,21 @@ The code can be found here in this directory: https://github.com/Vikash-8090-Yad
 substream as Kind mentioned in ``` subgraph.yaml``` indicates that all the query from subgraph are being handled  & processed by Substream
 
 ![Screenshot from 2024-06-22 14-31-46](https://github.com/Vikash-8090-Yadav/TickTicket/assets/85225156/19c7d79c-fd72-4db3-9ad0-a17c712cdf2d)
+
+
+## Tutorial 
+
+To know more about substream please watch this amazing video from Graph builders dao 
+
+https://youtu.be/n0XQF07jtA0?si=l0-yIioz2WObxui0
+
+**Note**: In the above video instead of doing  ``` make pack ``` to compile substream do ``` make all```. I struggle atleast 3 hour to solve this, Good Luck!!
+
+and  Follow this guide to install the substream-cli in your system 
+
+https://substreams.streamingfast.io/documentation/consume/installing-the-cli
+
+### You can also  use Pinax service like  substream endpoint, sepolia endpoints etc. Find the full Information  here -> https://pinax.network/en/products/substreams
 
 
 
