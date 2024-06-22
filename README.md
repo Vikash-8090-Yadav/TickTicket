@@ -75,7 +75,7 @@ I created subgraph for this prroject and query  to make various dashboard like  
 
 - Any user can buy the ticket and can attend the event
 
-![Screenshot from 2024-05-27 10-38-47](https://github.com/Vikash-8090-Yadav/OneTicket/assets/85225156/4572494f-5d3f-470e-9a83-4f76942697fa)
+![Screenshot from 2024-06-22 14-30-49](https://github.com/Vikash-8090-Yadav/TickTicket/assets/85225156/2191a444-3f65-453d-9ef4-8f3cb630e61f)
 
 
 ## Creat Event 
