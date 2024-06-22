@@ -34,10 +34,9 @@ export default function Home() {
   let query = `
     {
       sbsticketTokenItems {
-      tokenURI
+        token_uri
       price
-      newTokenId
-      evt_tx_hash
+      new_token_id
       }
     }
   `;
@@ -55,8 +54,9 @@ export default function Home() {
     
     try {
       const { data } = await client.query(query).toPromise();
+      // console.log(data.sbsticketTokenItems);
       setTokens(data.sbsticketTokenItems);
-      // console.log(data.tokenItems);
+      
       setIsLoading(false); // Data is loaded
       await loadNFTs();
     } catch (error) {
@@ -75,10 +75,10 @@ async function loadNFTs() {
 
     const items = await Promise.all(tokens.map(async token => {
       // alert("try")
-      const meta = await axios.get(token.tokenURI);
+      const meta = await axios.get(token.token_uri);
       console.log("The i item is".meta);
       const price = await token.price / 10 ** 18;
-      const tokenId = await token.newTokenId;
+      const tokenId = await token.new_token_id;
       // alert("inside try")
       return {
         price,
