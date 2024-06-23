@@ -10,7 +10,7 @@
 
 OneTicket is a revolutionary platform that allows users to create tickets for their events, resell tickets, and share their event experiences in a dedicated dashboard. This platform eliminates intermediaries, empowering users to manage their events and ticketing seamlessly.
 
-## Contract Info ->  The  smart contract  is deployed ons scroll sepolia
+## Contract Info ->  The  smart contract  is deployed ons eth sepolia testnet
 
 Contract Address: 0xcFC29195eb33f4e7dE75a0eB0ab6fB120946A3B2
 
